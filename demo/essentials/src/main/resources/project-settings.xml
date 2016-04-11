@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <name>project-settings</name>
+    <beansFolder>site/src/main/java</beansFolder>
+    <bootstrapModule>bootstrap</bootstrapModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <extraTemplates>true</extraTemplates>
+    <projectNamespace>threestepworkflowdemo</projectNamespace>
+    <selectedBeansPackage>org.onehippo.threestep.beans</selectedBeansPackage>
+    <selectedComponentsPackage>org.onehippo.threestep.components</selectedComponentsPackage>
+    <selectedRestPackage>org.onehippo.threestep.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteModule>site</siteModule>
+    <templateLanguage>freemarker</templateLanguage>
+    <useSamples>true</useSamples>
+    <webfilesSubModule>webfiles</webfilesSubModule>
+</project>
