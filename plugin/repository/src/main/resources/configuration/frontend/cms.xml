@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="cms" esv:merge="combine">
+  <sv:node sv:name="cms-preview" esv:merge="combine">
+    <sv:node sv:name="workflowPlugin" esv:merge="combine">
+      <sv:property sv:name="workflow.menuorder" sv:type="String" esv:merge="override" sv:multiple="true">
+        <sv:value>publication</sv:value>
+        <sv:value>request</sv:value>
+        <sv:value>review</sv:value>
+        <sv:value>document</sv:value>
+        <sv:value>miscellaneous</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="default" esv:merge="combine">
+  <sv:node sv:name="handle" esv:merge="combine">
+    <sv:property sv:name="hipposys:classname" sv:type="String" esv:merge="override">
+      <sv:value>org.onehippo.repository.documentworkflow.DocumentReviewWorkflowImpl</sv:value>
+    </sv:property>
+    <sv:node sv:name="frontend:renderer" esv:merge="combine">
+      <sv:node sv:name="review">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>frontend:plugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="plugin.class" sv:type="String">
+          <sv:value>org.onehippo.threestep.cms.workflow.plugins.reviewedactions.ReviewRequestsWorkflowPlugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="wicket.id" sv:type="String">
+          <sv:value>${item}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hipposys:config" esv:merge="combine">
+      <sv:property sv:name="documentHandleFactoryClass" sv:type="String">
+        <sv:value>org.onehippo.threestep.repository.documentworkflow.ThreeStepDocumentHandleFactory</sv:value>
+      </sv:property>
+      <sv:property sv:name="scxml-definition" esv:merge="override" sv:type="String">
+        <sv:value>threestepworkflow</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
