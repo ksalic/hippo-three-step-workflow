@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="hippodocuments" esv:merge="combine">
+  <sv:node sv:name="hippo:authrole">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:authrole</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:groups" sv:type="String" sv:multiple="true">
+      <sv:value>reviewer</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:role" sv:type="String">
+      <sv:value>reviewer</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

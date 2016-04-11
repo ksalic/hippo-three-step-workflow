@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sv:node xmlns:ae="http://www.onehippo.org/jcr/autoexport/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0"
+         ae:id="cb-hippo-website" sv:name="hippo:initialize">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:initializefolder</sv:value>
+    </sv:property>
+
+    <sv:node sv:name="threestep">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:namespace" sv:type="String">
+            <sv:value>http://www.onehippo.org/threestep/nt/1.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:nodetypesresource" sv:type="String">
+            <sv:value>threestep.cnd</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-roles-reviewer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>roles-reviewer.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:roles</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-groups-reviewer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>group-reviewer.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:groups</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-groups-author">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>group-author.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:groups</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-groups-editor">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>group-editor.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:groups</sv:value>
+        </sv:property>
+    </sv:node>
+
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-users-reviewer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>users-reviewer.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:users</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-users-author">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>users-author.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:users</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-users-editor">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>users-editor.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:users</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-workflows-default">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>workflow-default.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:workflows</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-modules-scxmlregistry-plugin">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>modules-scxmlregistry.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:modules</sv:value>
+        </sv:property>
+    </sv:node>
+
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-domains-defaultwrite">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>domains/defaultwrite.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:domains</sv:value>
+        </sv:property>
+    </sv:node>
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-domains-hippodocuments">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>domains/hippodocuments.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:domains</sv:value>
+        </sv:property>
+    </sv:node>
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-domains-hippofolders">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>domains/hippofolders.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:domains</sv:value>
+        </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="three-step-workflow-hippo-configuration-hippo-domains-hipporequests">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30000.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>domains/hipporequests.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/hippo:configuration/hippo:domains</sv:value>
+        </sv:property>
+    </sv:node>
+
+
+</sv:node>
