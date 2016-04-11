@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0          http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.onehippo.cms7</groupId>
+    <artifactId>hippo-cms7-project</artifactId>
+    <version>27.5</version>
+  </parent>
+
+  <groupId>org.onehippo.cms7</groupId>
+  <artifactId>three-step-workflow</artifactId>
+  <version>1.01.01-SNAPSHOT</version>
+
+  <name>CMS Three Step Workflow</name>
+  <description>CMS Three Step Workfow</description>
+  <packaging>pom</packaging>
+
+  <properties>
+    <hippo.repository.version>3.2.0</hippo.repository.version>
+    <hippo.cms.version>3.2.0</hippo.cms.version>
+    <hippo.commons>2.2.0</hippo.commons>
+
+    <junit.version>4.5</junit.version>
+    <easymock.version>3.0</easymock.version>
+  </properties>
+
+
+  <repositories>
+    <repository>
+      <id>hippo</id>
+      <name>Hippo Maven 2</name>
+      <url>https://maven.onehippo.com/maven2/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+    </repository>
+  </repositories>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-cms-api</artifactId>
+        <version>${hippo.cms.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-cms-perspectives</artifactId>
+        <version>${hippo.cms.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-cms-workflow-frontend</artifactId>
+        <version>${hippo.cms.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-repository-workflow</artifactId>
+        <version>${hippo.repository.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-cms7-commons</artifactId>
+        <version>${hippo.commons}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-repository-modules</artifactId>
+        <version>${hippo.repository.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-repository-config</artifactId>
+        <version>${hippo.repository.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-repository-testutils</artifactId>
+        <version>${hippo.cms.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.easymock</groupId>
+        <artifactId>easymock</artifactId>
+        <version>${easymock.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+    </dependencies>
+
+
+  </dependencyManagement>
+
+  <modules>
+    <module>frontend</module>
+    <module>repository</module>
+  </modules>
+
+</project>
